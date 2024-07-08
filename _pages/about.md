@@ -8,7 +8,7 @@ profile:
   image: prof_pic.jpg
   image_circular: false # crops the image to make it circular
   more_info: >
-    <p>123 CESBIO</p>
+    <p>CESBIO</p>
     <p>Toulouse, 31400 /p>
 news: true # includes a list of news items
 selected_papers: true # includes a list of papers marked as "selected={true}"
