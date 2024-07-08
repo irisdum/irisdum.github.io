@@ -84,6 +84,7 @@ You can add extra information to a publication, like a PDF file in the `assets/p
 
 ### Author annotation
 
+
 In publications, the author entry for yourself is identified by string array `scholar:last_name` and string array `scholar:first_name` in [\_config.yml](_config.yml). For example, if you have the following entry in your [\_config.yml](_config.yml):
 
 ```yaml
