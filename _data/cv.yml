@@ -2,96 +2,107 @@
   type: map
   contents:
     - name: Full Name
-      value: Albert Einstein
-    - name: Date of Birth
-      value: 14th March 1879
+      value: Iris Dumeur
     - name: Languages
-      value: English, German
-
+      value: French (native) , English (fluent), German (B1)
 - title: Education
   type: time_table
   contents:
-    - title: PhD
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1905
-      description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Federal teaching diploma
-      institution: Eidgenössische Technische Hochschule, Zurich, Switzerland
-      year: 1900
-      description:
-        - Description 1.
-        - Description 2.
-
+  - title: PhD student
+    institution: CESBIO, Toulouse
+    year: 2021 to present
+    description:
+      - title: Development of self supervised learning methodologies for Satellite Image Time Series
+        contents:
+        - Masked auto encoders
+        - Multiview self-supervised learning strategies
+        - Temporal attention mechanism for SITS
+      - title: Formations
+        contents:
+          - Gretsi summer school 2022, "Methodological and societal challenges of deep learning"
+          - IEEE GRSS Image Analysis and Data Fusion (IADF) summer school 2022
+  - title: French national engineer diploma equivalent to Master's degree
+    institution: Mines Nancy
+    year: 2021
+    description:
+      -  Major in computer science
+      - Image Processing,Advanced Data Analysis on Spatial and Temporal data,Data Science, Statistics
 - title: Experience
   type: time_table
   contents:
-    - title: Professor of Theoretical Physics
-      institution: Institute for Advanced Study, Princeton University
-      year: 1933 - 1955
+    - title: Reseach intern on bi-temporal land cover change detection using digital elevation model on stereoscopic VHR Image
+      institution: CNES, (French space Agency)
+      year: 2021
       description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Visiting Professor
-      institution: California Institute of Technology, Pasadena, California, US
-      year: 1933
+        - Bi-temporal land cover change detection using digital elevation model on stereoscopic VHR Image
+        - Multi-task learning, DEM with CARS
+    - title: Research intern deep learning and remote sensing
+      institution: CSIRO data61, Melbourne
+      year: 2020
       description:
-        - Description 1.
-        - Description 2.
-
-    - title: Director
-      institution: Kaiser Wilhelm Institute for Physics, Berlin, Germany.
-      year: 1917-1933
-
-    - title: Professor of Theoretical Physics
-      institution: Karl-Ferdinand University, Prague, Czechoslovakia
-      year: 1911 - 1917
+        - Sentinel 1 and 2 data fusion with Generative Adversarial Network (GAN)
+        - Continuation of the internship as the final year school project. Assessment of the cGAN ability to simulate Sentinel 2 data and map changes
+    - title: Computer vision intern
+      institution: Preligens, ex-earthcube (PARIS)
+      year: Sep 2019-Feb 2020
+      description: Ensembling method applied to deep learning (VGG, ResNet) & machine learning (Random Forest, Gradient Boosting Tree) algorithms for ship classification in SAR image
+- title: Conferences
+  type: time_table
+  contents:
+    - title:  International Geoscience and Remote Sensing Symposium (IGARSS), Athenes
+      year: 2024
       description:
-
-    - title: Associate Professor of Theoretical Physics
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1909 - 1911
+      - Toward a foundation model for irregular and unaligned Satellite Image Time Series
+    - title:  International Geoscience and Remote Sensing Symposium (IGARSS), Pasadena
+      year: 2023
+      description:
+      - <a href=https://ieeexplore.ieee.org/document/10281412">Self-Supervised Spatio-Temporal Representation Learning of Satellite Image Time Series </a>
+    - title: GRETSI 2023, Grenoble
+      year: 2023
+      description:
+      - <a href=https://gretsi.fr/data/colloque/pdf/2023_dumeur1298.pdf">Apprentissage autosupervisé de représentations spatio-temporelles de séries temporelles d’images satellites </a>
 
 - title: Open Source Projects
   type: time_table
   contents:
-    - title: <a href="https://github.com/alshedivat/al-folio">al-folio</a>
-      year: 2015-now
-      description: A beautiful, simple, clean, and responsive Jekyll theme for academics.
+    - title: <a href="https://src.koda.cnrs.fr/iris.dumeur/alise">ALISE (code) </a>
+      year: 2023-now
+      description: ALIgned Sits Encoder (ALISE) official code
+    - title: <a href="https://src.koda.cnrs.fr/iris.dumeur/ssl_ubarn">U-BARN (code)</a>
+      year: 2023-now
+      description: U-BARN official code
+    - title: <a href="https://src.koda.cnrs.fr/iris.dumeur/openeo_datasets">Create dataset with openeo (code)</a>
+      year: 2023
+      description: Downloading and processing step for data downloaded from openeo platform
+    - title: <a href="https://src.koda.cnrs.fr/iris.dumeur/modcix">CropRot (code) </a>
+      year: 2023-now
+      description: Code to create CropRot
+    - title: <a href="https://zenodo.org/records/7891924"> S2 SITS pretraining dataset (dataset) </a>
+      year: 2024
+      description: Share a Multi-year S2 SITS pre-training dataset
 
-- title: Honors and Awards
-  type: time_table
+- title: Skills
+  type: nested_list
   contents:
-    - year: 1921
+    - title: Python
       items:
-        - Nobel Prize in Physics
-        - Matteucci Medal
-    - year: 2029
+        - Pytorch, pytorch-lightning, hydra, einops
+    - title: Emacs
       items:
-        - Max Planck Medal
-
+        - PhD and article written with orgmode
+    - title: HPC computing
+      items:
+        - slurm
+        - Jean-Zay and CNES HPC
 - title: Academic Interests
   type: nested_list
   contents:
-    - title: Topic 1.
+    - title: Self-supervised learning (SSL)
       items:
-        - Description 1.
-        - Description 2.
-    - title: Topic 2.
+        - Multiview SSL
+        - Fusion of several SSL strategies
+    - title: Remote sensing
       items:
-        - Description 1.
-        - Description 2.
+        - Satellite Image Time Series
+        - Multimodal data fusion
 
-- title: Other Interests
-  type: list
-  contents:
-    - <u>Hobbies:</u> Hobby 1, Hobby 2, etc.

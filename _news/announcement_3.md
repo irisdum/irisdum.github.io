@@ -1,8 +1,8 @@
 ---
 layout: post
-date: 2016-01-15 07:59:00-0400
+title: Participation at Gdr-IASIS 
+date: 2024-06-06
 inline: true
 related_posts: false
 ---
-
-A simple inline announcement with Markdown emoji! :sparkles: :smile:
+Participation at Gdr-IASIS : "Vers un apprentissage pragmatique dans un contexte de données visuelles labellisées limitées ". [https://gdr-iasis.cnrs.fr/reunion/518/](https://gdr-iasis.cnrs.fr/reunion/518/)

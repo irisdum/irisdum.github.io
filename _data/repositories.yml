@@ -1,14 +1,10 @@
 github_users:
-  - torvalds
-  - alshedivat
+  - irisdum
+gitlab_users:
+  - iris.dumeur
 
 repo_description_lines_max: 2
 
 github_repos:
-  - alshedivat/al-folio
-  - jekyll/jekyll
-  - twbs/bootstrap
-  - jquery/jquery
-  - FortAwesome/Font-Awesome
-  - mathjax/MathJax
-  - jpswalsh/academicons
+  - irisdum/cGAN_sent2_sim
+
