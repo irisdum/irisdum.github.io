@@ -127,7 +127,6 @@ GEM
       html-pipeline (~> 2.2)
       jekyll (>= 3.0, < 5.0)
     json (2.7.2)
-    strscan (3.0.9)
     json-minify (0.0.3)
       json (> 0)
     kramdown (2.4.0)
