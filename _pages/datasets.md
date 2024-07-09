@@ -10,7 +10,7 @@ nav_order: 4
 ### Unlabeled datasets 
 
 
-#### S2 France 
+#### A. S2 France 
 
 |------------|-------------------------------------------------------------------------------|-----------|
 | Data-Set   | S2 tiles                                                                       |      Year |
@@ -24,7 +24,7 @@ The dataset is available at : [https://doi.org/10.5281/zenodo.7891924](https://d
 
 
 
-#### S2 Europe 2017-2020
+#### B. S2 Europe 2017-2020
 
 
 |------------|--------------------------------------------------------------------------------|-----------|
@@ -43,6 +43,6 @@ Link to download the data will be released soon
 ### Labeled datasets 
 
 
-#### CropRot 
+#### A. CropRot 
 A crop change detection dataset. Patch location corresponds to PASTIS ROIs. 
 Dataset will be released soon
