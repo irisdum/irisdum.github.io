@@ -7,4 +7,3 @@ related_posts: false
 ---
 
 Happy to share my first blog on the CESBIO multitemp blog : 
-[Training DNNS for satellite image time series with no labeled data](https://labo.obs-mip.fr/multitemp/training-deep-neural-networks-for-satellite-image-time-series-with-no-labeled-data/)
