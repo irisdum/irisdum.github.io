@@ -8,14 +8,14 @@
 - title: Education
   type: time_table
   contents:
-  - title: PhD student
+  - title: PhD in land surface monitoring
     institution: CESBIO, Toulouse
     year: 2021 to present
     description:
-      - title: Development of self supervised learning methodologies for Satellite Image Time Series
+      - title: Paving the way towards foundation models exploiting Satellite Image Time Series for land surface monitoring
         contents:
-        - Masked auto encoders
-        - Multiview self-supervised learning strategies
+        - Development of three different SITS encoders - U-BARN, ALISE and MALICE
+        - Self-supervised learning - masked auto encoders and Discriminative approaches
         - Temporal attention mechanism for SITS
       - title: Formations
         contents:
@@ -80,6 +80,12 @@
     - title: <a href="https://zenodo.org/records/7891924"> S2 SITS pretraining dataset (dataset) </a>
       year: 2024
       description: Share a Multi-year S2 SITS pre-training dataset
+    - title: <a href="https://zenodo.org/records/13790323"> MMDC-EU (dataset) </a>
+      year: 2024
+      description: Share a multi-modal, multi-year pre-training dataset.
+    - title: <a href="https://zenodo.org/records/13880014"> CropRot (dataset) </a>
+      year: 2024
+      description: Share a labeled SITS change detection dataset
 
 - title: Skills
   type: nested_list
