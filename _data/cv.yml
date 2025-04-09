@@ -10,7 +10,7 @@
   contents:
   - title: PhD in land surface monitoring
     institution: CESBIO, Toulouse
-    year: 2021 to present
+    year: 2021 to 2024
     description:
       - title: Paving the way towards foundation models exploiting Satellite Image Time Series for land surface monitoring
         contents:
@@ -25,11 +25,17 @@
     institution: Mines Nancy
     year: 2021
     description:
-      -  Major in computer science
+      - Major in computer science
       - Image Processing,Advanced Data Analysis on Spatial and Temporal data,Data Science, Statistics
 - title: Experience
   type: time_table
   contents:
+    - title: Postdoc - Change detection on mulitmodal Satellite Image Time Series
+          institution: Centre Borelli, Paris France
+          year: 2025-Present
+          description:
+            - Multimodal SITS fusion - Sentinel-1, Sentinel-2, Landsat
+            - Unsupervised change detection
     - title: Reseach intern on bi-temporal land cover change detection using digital elevation model on stereoscopic VHR Image
       institution: CNES, (French space Agency)
       year: 2021
