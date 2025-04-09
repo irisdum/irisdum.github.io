@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='#'>PhD Student at CESBIO</a>. iris.dumeur@univ-tlse3.fr. 
+subtitle: <a href='#'>PhD Student at CESBIO</a>. prenom.nom [at] ens-paris-saclay.fr. 
 profile:
   align: right
   image: prof_pic.jpg
