@@ -11,32 +11,17 @@ nav_order: 4
 
 
 #### A. S2 France 
-
-|------------|-------------------------------------------------------------------------------|-----------|
-| Data-Set   | S2 tiles                                                                       |      Year |
-|------------|--------------------------------------------------------------------------------|-----------|
-| train      | T30TXT, T30TYQ, T30TYS, T30UVU, T31TDJ, T31TDL, T31TFN, T31TGJ, T31UEP         | 2018-2020 |
-|------------|--------------------------------------------------------------------------------|-----------|
-| validation | T30TYR, T30UWU, T31TEK, T31UER                                                 | 2016-2019 |
-|------------|--------------------------------------------------------------------------------|-----------|
+ This dataset is composed of Sentinel-2 SITS acquired over France. 
+ Each image is constituted of the 10 bands  [B2,B3,B4,B5,B6,B7,B8,B8A,B11,B12] and the three masks ['CLM_R1', 'EDG_R1', 'SAT_R1']. 
 
 The dataset is available at : [https://doi.org/10.5281/zenodo.7891924](https://doi.org/10.5281/zenodo.7891924)
 
 
 
-#### B. S2 Europe 2017-2020
+#### B. MMDC-EU
 
-
-|------------|--------------------------------------------------------------------------------|-----------|
-| Data-Set   | S2 tiles                                                                       |      Year |
-|------------|--------------------------------------------------------------------------------|-----------|
-| train      | 30TXT,31TDL,31TEN, 32TPQ, 32TPT,32UMB,32UQD,33TVM,33TYJ,33UXR,34TFR,34UEC      | 2017-2020 |
-|------------|--------------------------------------------------------------------------------|-----------|
-| validation | 30TYR, 31TEK, 32TNR, 32UPC, 33TXK, 34UDB                                       | 2017-2020 |
-|------------|--------------------------------------------------------------------------------|-----------|
-
-
-Link to download the data will be released soon 
+MMDC-EU is a multi-year, multimodal SITS dataset spanning Europe. This dataset is composed of the following data: the Sentinel 2 L2A product (processed with Sen2cor), the Sentinel 1 ascending and descending orbits, ECMWF AGERA5 weather variables, and a digital elevation model (DEM). Although all modalities are not initially available at a 10m resolution, all products are up-sampled on the Sentinel-2 10m spatial grid. Multi-year multimodal SITS were acquired from January 2017 to December 2020. 
+The dataset is available at [https://zenodo.org/records/13790323](https://zenodo.org/records/13790323)
 
 
 
@@ -44,5 +29,5 @@ Link to download the data will be released soon
 
 
 #### A. CropRot 
-A crop change detection dataset. Patch location corresponds to PASTIS ROIs. 
-Dataset will be released soon
+A crop change detection dataset with Sentinel-2 SITS between 2019-2020. Patch location corresponds to PASTIS ROIs. 
+The dataset is available at [https://zenodo.org/records/13880014](https://zenodo.org/records/13880014)

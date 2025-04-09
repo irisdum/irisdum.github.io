@@ -14,12 +14,15 @@ news: true # includes a list of news items
 selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 ---
-I am deeply motivated by the application of deep learning to Earth monitoring. 
-Currently, I am in the final year of my Ph.D. at CESBIO in Toulouse, under the supervision of Silvia Valero and Jordi Inglada. 
-My PhD focuses on developing foundation models for remote sensing data. In particular, we propose novel self-supervised 
+I completed my PhD, in december 2024, after three years of research at CESBIO in Toulouse.
+My dissertation, titled "Paving the Way Towards Foundation Models Exploiting Satellite Image Time Series for Land Surface Monitoring",
+will soon be available online. 
+During my PhD, supervised by Silvia Valero and Jordi Inglada, we proposed novel self-supervised 
 pre-training tasks and relevant deep neural network architectures for Satellite Image Time Series (SITS). 
 Our research outputs, including code and datasets, are openly available.
 
-Finally, I am looking for a postdoctoral position in Paris starting in April 2024, where I would like to continue my work on 
-integrating deep learning with remote sensing data.
+Since April 2025, I’ve been a postdoctoral researcher at the [Borelli Centre](https://centreborelli.ens-paris-saclay.fr/fr/traitement-dimages) image processing team, where I work on change detection in multimodal SITS.
+
+
+
 
