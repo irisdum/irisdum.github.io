@@ -6,4 +6,4 @@ inline: true
 related_posts: false
 ---
 
-Starting a postdoc on mutli-modal Sattelite Image Time Series change detection at the Centre Borelli, ENS Paris Saclay in Paris. 
+Starting a postdoc on mutli-modal Satellite Image Time Series change detection at the Centre Borelli, ENS Paris Saclay in Paris. 
