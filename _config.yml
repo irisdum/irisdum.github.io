@@ -257,6 +257,8 @@ jekyll-minifier:
   exclude: ["robots.txt", "assets/js/search/*.js"]
   uglifier_args:
     harmony: true
+minifier:
+  javascript: false
 
 # -----------------------------------------------------------------------------
 # Jekyll Archives
