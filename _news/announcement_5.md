@@ -2,7 +2,7 @@
 layout: post
 title: PhD Defense, CESBIO
 date: 2024-12-09
-inline: true
+inline: false
 related_posts: false
 ---
 
