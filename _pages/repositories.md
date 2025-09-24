@@ -6,20 +6,25 @@ description:
 nav: true
 nav_order: 4
 ---
+<!-- code for GitHub users -->
+{% if site.data.repositories.github_users %}
+<div class="repositories d-flex flex-wrap flex-md-row flex-column justify-content-between align-items-center">
+  {% for user in site.data.repositories.github_users %} {% include repository/repo_user.liquid username=user %} {% endfor %}
+</div>
+{% endif %}
 
-## Official repositories (linked to a publication) 
-#### ALigned Sits Encoder (ALISE) (2024)
-ALISE : [https://github.com/irisdum/alise](https://github.com/irisdum/alise)
-- ALISE produces aligned representations of irregular unaligned mutli-year SITS
-- ALISE is pre-trained with a multiview self-supervised learning strategies merging a cross-reconstruction task with discriminative loss
+<!-- code for GitHub trophies -->
+{% if site.repo_trophies.enabled %} {% for user in site.data.repositories.github_users %} {% if site.data.repositories.github_users.size > 1 %}
+<h4>{{ user }}</h4>
+{% endif %}
+<div class="repositories d-flex flex-wrap flex-md-row flex-column justify-content-between align-items-center">
+  {% include repository/repo_trophies.liquid username=user %}
+</div>
+{% endfor %} {% endif %}
 
-
-#### U-BARN (2023)
-U-BARN : [https://github.com/irisdum/ssl_ubarn](https://github.com/irisdum/ssl_ubarn)
-- U-BARN harnesses the spectral-spatial and temporal dimension of SITS 
-- U-BARN is pre-trained with a temporal masking strategy 
-
-
-## Code to generate/process SITS data
-- Openeo-datasets [https://github.com/irisdum/openeo_datasets](https://github.com/irisdum/openeo_datasets)
-- CropRot [https://github.com/irisdum/modcix](https://github.com/irisdum/modcix)
+<!-- code for GitHub repositories -->
+{% if site.data.repositories.github_repos %}
+<div class="repositories d-flex flex-wrap flex-md-row flex-column justify-content-between align-items-center">
+  {% for repo in site.data.repositories.github_repos %} {% include repository/repo.liquid repository=repo %} {% endfor %}
+</div>
+{% endif %}

@@ -16,7 +16,7 @@ social: true # includes social icons at the bottom of the page
 ---
 I completed my PhD, in december 2024, after three years of research at CESBIO in Toulouse.
 My dissertation, titled "Paving the Way Towards Foundation Models Exploiting Satellite Image Time Series for Land Surface Monitoring",
-will soon be available online. 
+is available online [https://theses.hal.science/tel-05053725v1/file/2024TLSES261.pdf](https://theses.hal.science/tel-05053725v1/file/2024TLSES261.pdf).
 During my PhD, supervised by Silvia Valero and Jordi Inglada, we proposed novel self-supervised 
 pre-training tasks and relevant deep neural network architectures for Satellite Image Time Series (SITS). 
 Our research outputs, including code and datasets, are openly available.

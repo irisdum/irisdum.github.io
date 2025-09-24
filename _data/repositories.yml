@@ -1,3 +1,4 @@
+
 github_users:
   - irisdum
 gitlab_users:
@@ -6,5 +7,8 @@ gitlab_users:
 repo_description_lines_max: 2
 
 github_repos:
+  - irisdum/alise
+  - irisdum/Alise-Minimal
+  - irisdum/ssl_ubarn
+  - irisdum/openeo_datasets
   - irisdum/cGAN_sent2_sim
-

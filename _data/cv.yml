@@ -108,12 +108,12 @@
 - title: Academic Interests
   type: nested_list
   contents:
-    - title: Self-supervised learning (SSL)
+    - title: Foundation model in remote sensing
       items:
-        - Multiview SSL
-        - Fusion of several SSL strategies
+        - Multimodal data fusion
+        - Self-supervised learning strategy
     - title: Remote sensing
       items:
-        - Satellite Image Time Series
-        - Multimodal data fusion
+        - Land surface monitoring
+        - Change detection	
 
