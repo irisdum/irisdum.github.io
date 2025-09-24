@@ -22,4 +22,4 @@ U-BARN : [https://github.com/irisdum/ssl_ubarn](https://github.com/irisdum/ssl_u
 
 ## Code to generate/process SITS data
 - Openeo-datasets [https://github.com/irisdum/openeo_datasets](https://github.com/irisdum/openeo_datasets)
-- CropRot [https://github.com/irisdum/modcix](https://src.koda.cnrs.fr/iris.dumeur/modcix)
+- CropRot [https://github.com/irisdum/modcix](https://github.com/irisdum/modcix)

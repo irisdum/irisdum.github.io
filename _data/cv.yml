@@ -70,16 +70,16 @@
 - title: Open Source Projects
   type: time_table
   contents:
-    - title: <a href="https://src.koda.cnrs.fr/iris.dumeur/alise">ALISE (code) </a>
+    - title: <a href="https://github.com/irisdum/alise">ALISE (code) </a>
       year: 2023-now
       description: ALIgned Sits Encoder (ALISE) official code
-    - title: <a href="https://src.koda.cnrs.fr/iris.dumeur/ssl_ubarn">U-BARN (code)</a>
+    - title: <a href="https://github.com/irisdum/ssl_ubarn">U-BARN (code)</a>
       year: 2023-now
       description: U-BARN official code
-    - title: <a href="https://src.koda.cnrs.fr/iris.dumeur/openeo_datasets">Create dataset with openeo (code)</a>
+    - title: <a href="https://github.com/irisdum/openeo_datasets">Create dataset with openeo (code)</a>
       year: 2023
       description: Downloading and processing step for data downloaded from openeo platform
-    - title: <a href="https://src.koda.cnrs.fr/iris.dumeur/modcix">CropRot (code) </a>
+    - title: <a href="https://github.com/irisdum/modcix">CropRot (code) </a>
       year: 2023-now
       description: Code to create CropRot
     - title: <a href="https://zenodo.org/records/7891924"> S2 SITS pretraining dataset (dataset) </a>
