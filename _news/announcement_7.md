@@ -1,8 +1,8 @@
 ---
 layout: post
-title: New publication
+title: New publication - Paving the Way Toward Foundation Models for Irregular and Unaligned Satellite Image Time Series
 date: 2025-07-21
-inline: true
+inline: false
 related_posts: false
 ---
 
