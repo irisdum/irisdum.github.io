@@ -1,7 +1,8 @@
 source 'https://rubygems.org'
 group :jekyll_plugins do
     gem 'classifier-reborn'
-    gem 'jekyll'
+    gem "jekyll", "~> 4.3.2"
+    gem "webrick", "~> 1.8"   # needed for Ruby 3+
     gem 'jekyll-archives'
     gem 'jekyll-email-protect'
     gem 'jekyll-feed'
@@ -20,10 +21,13 @@ group :jekyll_plugins do
     gem 'jemoji'
     gem 'mini_racer'
     gem 'unicode_utils'
-    gem 'webrick'
 end
 group :other_plugins do
     gem 'css_parser'
     gem 'feedjira'
     gem 'httparty'
 end
+
+
+# Include the al-folio theme
+gem "jekyll-theme-al-folio", git: "https://github.com/alshedivat/al-folio"
