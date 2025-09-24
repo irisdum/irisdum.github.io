@@ -189,7 +189,7 @@ DEPENDENCIES
   css_parser
   feedjira
   httparty
-  jekyll
+  jekyll (~> 4.3.2)
   jekyll-archives
   jekyll-email-protect
   jekyll-feed
@@ -208,7 +208,7 @@ DEPENDENCIES
   jemoji
   mini_racer
   unicode_utils
-  webrick
+  webrick (~> 1.8)
 
 BUNDLED WITH
    2.5.14

@@ -29,5 +29,3 @@ group :other_plugins do
 end
 
 
-# Include the al-folio theme
-gem "jekyll-theme-al-folio", git: "https://github.com/alshedivat/al-folio"

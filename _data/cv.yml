@@ -31,11 +31,11 @@
   type: time_table
   contents:
     - title: Postdoc - Change detection on mulitmodal Satellite Image Time Series
-          institution: Centre Borelli, Paris France
-          year: 2025-Present
-          description:
-            - Multimodal SITS fusion - Sentinel-1, Sentinel-2, Landsat
-            - Unsupervised change detection
+      institution: Centre Borelli, Paris France
+      year: 2025-Present
+      description:
+        - Multimodal SITS fusion - Sentinel-1, Sentinel-2, Landsat
+        - Unsupervised change detection
     - title: Reseach intern on bi-temporal land cover change detection using digital elevation model on stereoscopic VHR Image
       institution: CNES, (French space Agency)
       year: 2021
