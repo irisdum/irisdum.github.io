@@ -2,13 +2,13 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='#'>Postdoc at the Centre Borelli</a>. prenom.nom [at] ens-paris-saclay.fr. 
+subtitle: <a href='#'>Research Scientist at Safran.AI and External collaborator at Centre Borelli</a>. prenom.nom [at] ens-paris-saclay.fr. 
 profile:
   align: right
   image: prof_pic.jpg
   image_circular: false # crops the image to make it circular
   more_info: >
-    <p>Centre Borelli</p>
+    <p>Safran.AI</p>
     <p>Paris </p>
 news: true # includes a list of news items
 selected_papers: true # includes a list of papers marked as "selected={true}"
@@ -21,7 +21,7 @@ During my PhD, supervised by Silvia Valero and Jordi Inglada, we proposed novel 
 pre-training tasks and relevant deep neural network architectures for Satellite Image Time Series (SITS). 
 Our research outputs, including code and datasets, are openly available.
 
-Since April 2025, I’ve been a postdoctoral researcher at the [Borelli Centre](https://centreborelli.ens-paris-saclay.fr/fr/traitement-dimages) image processing team, where I work on change detection in multimodal SITS.
+Between April and October 2025, I’ve been a postdoctoral researcher at the [Borelli Centre](https://centreborelli.ens-paris-saclay.fr/fr/traitement-dimages) image processing team, where I work on online land monitoring with multimodal SITS. Currently, I am pursuing this topic of research as a full-time researcher at Safran.AI, in collaboration with the Centre Borelli. 
 
 
 

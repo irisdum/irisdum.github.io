@@ -30,6 +30,14 @@
 - title: Experience
   type: time_table
   contents:
+     - title: Research Scientist
+      institution: Safran.AI, Paris France
+      year: 2026-PRESENT
+      description:
+      Foundation model for online land monitoring with multi-modal SITS. 
+     - title: Remote Sensing Researcher
+      institution: Kayrros, Paris France
+      year: 2025-2026
     - title: Postdoc - Change detection on mulitmodal Satellite Image Time Series
       institution: Centre Borelli, Paris France
       year: 2025-Present
